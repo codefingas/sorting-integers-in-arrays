@@ -1,4 +1,4 @@
-let arr =  [9, 5, 4, 3, 7, 6, 0, 2, 8, 1, 15, 12, 18, 12];
+let arr =  [9, 5, 4, 3, 7, 6, 0, 2, 8, 1];
 
 function findPermutation(array) {
     let counter = 0;//setting a counter variable to be undated everytime the array is swapped
@@ -11,4 +11,4 @@ function findPermutation(array) {
     return counter;
 };
 
-console.log(findPermutation(arr));//logging function to web browers console
+console.log(findPermutation(arr));//logging function to web brower console
